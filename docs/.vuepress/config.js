@@ -1,3 +1,3 @@
 export default {
-    base: "/John/",
+    base: "/anglefly/",
 }
