@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>一头老母猪</title><meta name="description" content="一个普普通通平平无奇的前端开发">
+    <link rel="modulepreload" href="/anglefly/assets/app.d8d28522.js"><link rel="modulepreload" href="/anglefly/assets/404.html.e9ce3361.js"><link rel="modulepreload" href="/anglefly/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/anglefly/assets/index.html.48b26828.js"><link rel="prefetch" href="/anglefly/assets/vue2tovue3.html.1d4c788e.js"><link rel="prefetch" href="/anglefly/assets/index.html.0df24df1.js"><link rel="prefetch" href="/anglefly/assets/vue2tovue3.html.7a148795.js">
+    <link rel="stylesheet" href="/anglefly/assets/style.08c37163.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/anglefly/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/anglefly/assets/app.d8d28522.js" defer></script>
+  </body>
+</html>
