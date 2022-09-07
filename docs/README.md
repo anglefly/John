@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 自我介绍
 [🙊 我的博客](https://anglefly.github.io/anglefly/) 
 - 普普通通的前端从业人员
